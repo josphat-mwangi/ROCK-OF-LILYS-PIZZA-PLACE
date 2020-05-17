@@ -60,6 +60,36 @@
           </div>
         </div>
       </div>
+      <!--Order details-->
+        <div class="col-md-3">
+          <h2>Order Details</h2>
+          <div class="card" id="orderDetails">
+            <div class="card-body">
+              <div class="summary">
+                <div id="price-breakdown">
+                  <div class="summary-items">
+                    <p class="space"><span id="size-price"></span></p>
+                  </div>
+                  <div class="summary-items">
+                    <p class="space"><span id="toppings-price"></span></p>
+                  </div>
+                  <div class="summary-items">
+                    <p class="space"><span id="crust-price"></span></p>
+                  </div>
+                  <div class="summary-items">
+                    <p class="space"><span id="delivery-price"></span></p>
+                  </div>
+                </div>
+                <div class="summary-items total" id="total">
+                  <h5 class="sum-price" id="total-price"></h5>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <button onclick="submit()" id="checkOut" class="btn reserve-btn">CHECKOUT</button>
+            </div>
+          </div>
+        </div>
 
       
       <!--about section-->
@@ -85,11 +115,31 @@
           </div>
         </div>
       </div>
-      <!--order section-->
+  <!--munu section-->
       <div>
         <div>
           <div>
-            <h2 id="order">Make Your Order Here and we wil delivery to your door step</h2>
+            <div id="menu"></div>
+            <br>
+            <div class="menu col-md-12">
+              <div class="menu-overlay">
+                <h1 class="text-center " id="menu">Menu</h1>
+                <div class="pizza-menu row text-center">
+                  <figure class="col-sm-4">
+                    <img src="images/images (1).jpeg" alt="small-pizza" class="wiggle">
+                    <figcaption class="text-white">Regular<br>Ksh. 550</figcaption>
+                  </figure>
+                  <figure class="col-sm-4">
+                    <img src="images/images (2).jpeg" alt="medium-pizza" class="wiggle">
+                    <figcaption class="text-white">Medium<br>Ksh. 1100</figcaption>
+                  </figure>
+                  <figure class="col-sm-4">
+                    <img src="images/images (3).jpeg" alt="large-pizza" class="wiggle">
+                    <figcaption class="text-white">Large<br>Ksh. 2200</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row">
             <div>

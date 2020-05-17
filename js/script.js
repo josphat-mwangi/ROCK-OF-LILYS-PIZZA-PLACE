@@ -63,4 +63,61 @@ toppingsPrice(){
     } else {
         return 1100;
     }
-}    
+} 
+deliveryPrice(){
+    if (this.delivery == true) {
+        return 200;
+    } else {
+        return 0;
+    }
+} 
+
+totalPriceNoDelivery(){
+    let priceAtPointA = this.typePrice();
+    let priceAtPointB = this.priceBySize();
+    let priceAtPointC = this.toppingsPrice();
+    let priceAtPointD = this.crustPrice();
+
+    return priceAtPointA + priceAtPointB + priceAtPointC + priceAtPointD;
+}
+
+pricePerQuantity(){
+    let grossPrice = this.totalPriceNoDelivery();
+    return grossPrice * this.quantity;
+}
+
+totalPlusDelivery(){
+    let withoutDelivery = this.pricePerQuantity();
+    let deliveryFee = this.deliveryPrice();
+
+    return withoutDelivery + deliveryFee;
+}
+
+}
+
+
+$(document).ready(() => {
+    $("#pizza-one-form").submit((event) => {
+        event.preventDefault();
+        let pizzaName = $("#pizza-one-label").text();
+        let pizzaSize = $("#size-selector").val();
+        let toppingType = $("#topping-selector").val();
+        let crustType = $("#crust-selector").val();
+        let pizzaQuantity = Number($("#pizza-quantity").val());
+        // let delivery = $("#to-be-delivered").is(":checked");
+        // let pickUp = $("#to-be-picked").is(":checked");
+        let chickenSupreme = new Pizza(pizzaName, pizzaSize, crustType, toppingType, pizzaQuantity, false);
+        $("#size-price").text(chickenSupreme.size + " " + chickenSupreme.type + ": " + "Ksh. " + chickenSupreme.priceBySize());
+        $("#crust-price").text(chickenSupreme.crust + ": " + "Ksh. " + chickenSupreme.crustPrice());
+        $("#toppings-price").text(chickenSupreme.toppings + " Toppings" + ": " + "Ksh. " + chickenSupreme.toppingsPrice());
+        $("#delivery-price").text("Delivery: " + chickenSupreme.deliveryPrice());
+        $("#total").text("Total: " + "Ksh. " + chickenSupreme.totalPlusDelivery());
+    });
+});
+
+$(document).ready(function () {
+    $("#checkOut").onclick(function (event) {
+        alert(name + ", We have received your message. Thank you for reaching out to us.");
+    });
+});
+
