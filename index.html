@@ -6,15 +6,42 @@
     <title>ROCK OF LILYS PIZZA PLACE</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    
     <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
       <h1>ROCK OF LILYS PIZZA PLACE</h1>
-
+      <p>Welcome to the top best pizza restuarants. <br>We of the best pizza with different variety of your choose, feel free yo intract with us.</p>
+      <nav class="navbar navbar-expand-md fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+          <img src="images/menu-icon.png" alt="menu icon">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#delivery">Delivery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+            <li id="reserve-button">
+              <button onclick="submit()" id="reserve" class="btn reserve-btn">Reserve a Table</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
       <!--about section-->
-      <h2>ABOUT US</h2>
+      <h2 id="about-us">ABOUT US</h2>
       <div class="container-fluid" id="about-us">
         <div>
           <div>
@@ -40,7 +67,7 @@
       <div>
         <div>
           <div>
-            <h2>Make Your Order Here and we wil delivery to your door step</h2>
+            <h2 id="order">Make Your Order Here and we wil delivery to your door step</h2>
           </div>
           <div class="row">
             <div>
@@ -99,7 +126,7 @@
     <div class="row ">
       <div class="col-md-5">
         <div class="container contact-us">
-          <h1 class="">CONTACT US</h1>
+          <h1 id="contact">CONTACT US</h1>
           <form id="feedbackForm">
             <div class="form-row">
               <div class="form-group col-md-6 ">
