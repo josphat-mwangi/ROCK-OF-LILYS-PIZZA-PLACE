@@ -452,26 +452,45 @@
   
       
     <!--about section-->
-    <h2 id="about-us">ABOUT US</h2>
-    <div class="container-fluid" id="about-us">
-      <div class="row">
-    
-        <div class="col-md-7">
-          <div class="container founder section">
-            <h2>WE ARE:</h2>
-            <p>
-              ROCK OF LILYS PIZZA PLACE that has been in pizza business for
-              over 90 years now and offers a very unique atmosphere addtion to
-              home delivery services for all pizza orders and we know that
-              pizza is a family meal which is popular around the world and
-              that has resulted in a large number of chains of pizza
-              restuarants but none of then is the best than ROCK OF LILYS
-              PIZZA PLACE
-            </p>
+    <div class="container-large aboutUs">
+      <div class="col-md-12">
+        <div class="row about-us">
+          <div class="col-md-7">
+            <div class="container founder-section">
+              <h1>About Us.</h1>
+              <img id="my-image" src="images/bg3.jpeg" alt="image of founder" width="20%">
+              <p>
+                ROCK OF LILYS PIZZA PLACE that has been in pizza business for over 90 years now and offers a very unique atmosphere, addition to home delivery services for all pizza orders and we know that pizza is a family meal which is popular around the world and that has resulted in a large number of chains of pizza restuarants but none of them is the best than ROCK OF LILY PIZZA PLACE.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="container contact-us">
+              <h1 class="wow jackInTheBox">CONTACT US</h1>
+              <form id="feedbackForm">
+                <div class="form-row">
+                  <div class="form-group col-md-6 wow jackInTheBox">
+                    <input type="text" class="form-control" id="userName" placeholder="Name...">
+                  </div>
+                  <div class="form-group col-md-6 wow jackInTheBox">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email...">
+                  </div>
+                  <div class="form-group col-md-12 wow jackInTheBox">
+                    <textarea id="userMessage" name="message" class="form-control" placeholder="Your message here..."
+                      rows="8" required="required" data-error="Please, leave us a message."></textarea>
+                  </div>
+                  <div class="col-md-12 wow jackInTheBox" id="submit-button">
+                    <button onclick="submit()" id="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    
     <div class="container-fluid footer">
       <div>
         <div>
