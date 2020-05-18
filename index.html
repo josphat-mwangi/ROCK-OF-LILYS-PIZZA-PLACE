@@ -40,154 +40,425 @@
             </ul>
           </div>
         </nav>
-        <p>Welcome and enjoy</p>
+      
      
+      </div><div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/pzza0.jpg" class="d-block w-100" alt="an image of pizza">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ch! Pizza Terrace -</h5>
+                <p>In Pizza We Crust!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/pzza1.jpg" class="d-block w-100" alt="an image of pizza">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Google User Review -</h5>
+                <p>“THE GLUTEN FREE CRUST IS THE BEST THING I’VE EVER TASTED!”</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/pzz.jpg" class="d-block w-100" alt="images/pizza2.jpg">
+              <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
-  
-       <!--menu section-->
-      <div>
-        <div>
-          <div>
-            <div id="menu"></div>
-            <br>
-            <div class="menu col-md-12">
-              <div class="menu-overlay">
-                <h1 class="text-center " id="menu">Menu</h1>
-                <div class="pizza-menu row text-center">
-                  <figure class="col-sm-4">
-                    <img src="images/images (1).jpeg" alt="small-pizza" class="wiggle">
-                    <figcaption class="text-white">Regular<br>Ksh. 550</figcaption>
-                  </figure>
-                  <figure class="col-sm-4">
-                    <img src="images/images (2).jpeg" alt="medium-pizza" class="wiggle">
-                    <figcaption class="text-white">Medium<br>Ksh. 1100</figcaption>
-                  </figure>
-                  <figure class="col-sm-4">
-                    <img src="images/images (3).jpeg" alt="large-pizza" class="wiggle">
-                    <figcaption class="text-white">Large<br>Ksh. 2200</figcaption>
-                  </figure>
+      
+      <div class="container-fluid menu">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-9">
+              <h2>Menu</h2>
+              <div class="card text-center" id="menuCard">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pizzas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Drinks</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Hearty Appetizers</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+      
+                  <div class="row">
+      
+                    <div class="col-sm-4">
+                      <form id="pizza-one-form">
+                        <div class="card" id="menuItem">
+                          <div class="card-header">
+                            <h5 id="pizza-one-label">CHICKEN SUPREME</h5>
+                          </div>
+                          <img class="card-img-top" src="images/menu-item0.png" alt="an image of menu item3" width="98%">
+                          <div class="card-footer">
+                            <div class="form-group" id="numberInput">
+                              <input type="number" class="form-control" placeholder=" 1" id="pizza-quantity" min="1" required>
+                            </div>
+      
+                            <select class="form-control drop" id="size-selector" required>
+                              <option>Large</option>
+                              <option>Medium</option>
+                              <option>Small</option>
+      
+                            </select>
+      
+      
+                            <select class="form-control drop" id="crust-selector" required>
+                              <option>Puff Pastry</option>
+                              <option>Tripple Cheese Crust</option>
+                              <option>Double Cheesy Crust</option>
+                              <option>Cheesy Crust</option>
+                              <option>Classic Pizza Crust</option>
+      
+                            </select>
+      
+                            <select class="form-control drop" id="topping-selector" required>
+                              <option>Extra Beef</option>
+                              <option>Extra Ham</option>
+                              <option>Extra Cheese Mozarella</option>
+                              <option>Extra Bacon</option>
+                              <option>Extra Sausages</option>
+                              <option>Extra Chicken</option>
+                              <option>Extra Spinach</option>
+                              <option>Extra Onion</option>
+                              <option>Extra Mushrooms</option>
+                              <option>Extra Tomatoes</option>
+                              <option>Extra Jalapenos</option>
+                              <option>Extra Olives</option>
+                            </select>
+      
+                            <button type="sumbit" class="btn btn-primary" id="checkout">Select</button>
+      
+      
+                          </div>
+                        </div>
+                    </div>
+                    </form>
+      
+                    <div class="col-sm-4">
+                      <div class="card" id="menuItem">
+                        <div class="card-header">
+                          BEEF BBQ
+                        </div>
+                        <img class="card-img-top" src="images/menu-item7.png" alt="an image of menu item3" width="98%">
+                        <div class="card-footer">
+      
+                          <div class="dropdown">
+                            <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Size
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <button class="dropdown-item" type="button">Large</button>
+                              <button class="dropdown-item" type="button">Medium</button>
+                              <button class="dropdown-item" type="button">Small</button>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-warning btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Crust
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Puff Pastry (200)</a>
+                              <a class="dropdown-item" href="#">Tripple Cheese Crust (400)</a>
+                              <a class="dropdown-item" href="#">Double Cheesy Crust (300)</a>
+                              <a class="dropdown-item" href="#">Cheesy Crust (150)</a>
+                              <a class="dropdown-item" href="#">Classic Pizza Crust</a>
+                              <a class="dropdown-item" href="#">Thin & Crust (100)</a>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Toppings
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Extra Beef (200)</a>
+                              <a class="dropdown-item" href="#">Extra Ham (200)</a>
+                              <a class="dropdown-item" href="#">Extra Cheese Mozarella (200)</a>
+                              <a class="dropdown-item" href="#">Extra Bacon (200)</a>
+                              <a class="dropdown-item" href="#">Extra Sausages (200)</a>
+                              <a class="dropdown-item" href="#">Extra Chicken (200)</a>
+                              <a class="dropdown-item" href="#">Extra Spinach (200)</a>
+                              <a class="dropdown-item" href="#">Extra Onion (200)</a>
+                              <a class="dropdown-item" href="#">Extra Mushrooms (200)</a>
+                              <a class="dropdown-item" href="#">Extra Tomatoes (200)</a>
+                              <a class="dropdown-item" href="#">Extra Jalapenos (200)</a>
+                              <a class="dropdown-item" href="#">Extra Olives (200)</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="col-sm-4">
+                      <div class="card" id="menuItem">
+                        <div class="card-header">
+                          VEGGIE TIKKA
+                        </div>
+                        <img class="card-img-top" src="images/menu-item2.png" alt="an image of menu item3" width="98%">
+                        <div class="card-footer">
+      
+                          <div class="dropdown">
+                            <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Size
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <button class="dropdown-item" type="button">Large</button>
+                              <button class="dropdown-item" type="button">Medium</button>
+                              <button class="dropdown-item" type="button">Small</button>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-warning btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Crust
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Puff Pastry (200)</a>
+                              <a class="dropdown-item" href="#">Tripple Cheese Crust (400)</a>
+                              <a class="dropdown-item" href="#">Double Cheesy Crust (300)</a>
+                              <a class="dropdown-item" href="#">Cheesy Crust (150)</a>
+                              <a class="dropdown-item" href="#">Classic Pizza Crust</a>
+                              <a class="dropdown-item" href="#">Thin & Crust (100)</a>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Toppings
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Extra Beef (200)</a>
+                              <a class="dropdown-item" href="#">Extra Ham (200)</a>
+                              <a class="dropdown-item" href="#">Extra Cheese Mozarella (200)</a>
+                              <a class="dropdown-item" href="#">Extra Bacon (200)</a>
+                              <a class="dropdown-item" href="#">Extra Sausages (200)</a>
+                              <a class="dropdown-item" href="#">Extra Chicken (200)</a>
+                              <a class="dropdown-item" href="#">Extra Spinach (200)</a>
+                              <a class="dropdown-item" href="#">Extra Onion (200)</a>
+                              <a class="dropdown-item" href="#">Extra Mushrooms (200)</a>
+                              <a class="dropdown-item" href="#">Extra Tomatoes (200)</a>
+                              <a class="dropdown-item" href="#">Extra Jalapenos (200)</a>
+                              <a class="dropdown-item" href="#">Extra Olives (200)</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="card" id="menuItem">
+                        <div class="card-header">
+                          FETA AND VEGGIE
+                        </div>
+                        <img class="card-img-top" src="images/menu-item5.png" alt="an image of menu item3" width="98%">
+                        <div class="card-footer">
+      
+                          <div class="dropdown">
+                            <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Size
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <button class="dropdown-item" type="button">Large</button>
+                              <button class="dropdown-item" type="button">Medium</button>
+                              <button class="dropdown-item" type="button">Small</button>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-warning btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Crust
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Puff Pastry (200)</a>
+                              <a class="dropdown-item" href="#">Tripple Cheese Crust (400)</a>
+                              <a class="dropdown-item" href="#">Double Cheesy Crust (300)</a>
+                              <a class="dropdown-item" href="#">Cheesy Crust (150)</a>
+                              <a class="dropdown-item" href="#">Classic Pizza Crust</a>
+                              <a class="dropdown-item" href="#">Thin & Crust (100)</a>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Toppings
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Extra Beef (200)</a>
+                              <a class="dropdown-item" href="#">Extra Ham (200)</a>
+                              <a class="dropdown-item" href="#">Extra Cheese Mozarella (200)</a>
+                              <a class="dropdown-item" href="#">Extra Bacon (200)</a>
+                              <a class="dropdown-item" href="#">Extra Sausages (200)</a>
+                              <a class="dropdown-item" href="#">Extra Chicken (200)</a>
+                              <a class="dropdown-item" href="#">Extra Spinach (200)</a>
+                              <a class="dropdown-item" href="#">Extra Onion (200)</a>
+                              <a class="dropdown-item" href="#">Extra Mushrooms (200)</a>
+                              <a class="dropdown-item" href="#">Extra Tomatoes (200)</a>
+                              <a class="dropdown-item" href="#">Extra Jalapenos (200)</a>
+                              <a class="dropdown-item" href="#">Extra Olives (200)</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="col-sm-4">
+                      <div class="card" id="menuItem">
+                        <div class="card-header">
+                          PEPPERONI
+                        </div>
+                        <img class="card-img-top" src="images/menu-item8.png" alt="an image of menu item3" width="98%">
+                        <div class="card-footer">
+      
+                          <div class="dropdown">
+                            <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Size
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <button class="dropdown-item" type="button">Large</button>
+                              <button class="dropdown-item" type="button">Medium</button>
+                              <button class="dropdown-item" type="button">Small</button>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-warning btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Crust
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Puff Pastry (200)</a>
+                              <a class="dropdown-item" href="#">Tripple Cheese Crust (400)</a>
+                              <a class="dropdown-item" href="#">Double Cheesy Crust (300)</a>
+                              <a class="dropdown-item" href="#">Cheesy Crust (150)</a>
+                              <a class="dropdown-item" href="#">Classic Pizza Crust</a>
+                              <a class="dropdown-item" href="#">Thin & Crust (100)</a>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Toppings
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Extra Beef (200)</a>
+                              <a class="dropdown-item" href="#">Extra Ham (200)</a>
+                              <a class="dropdown-item" href="#">Extra Cheese Mozarella (200)</a>
+                              <a class="dropdown-item" href="#">Extra Bacon (200)</a>
+                              <a class="dropdown-item" href="#">Extra Sausages (200)</a>
+                              <a class="dropdown-item" href="#">Extra Chicken (200)</a>
+                              <a class="dropdown-item" href="#">Extra Spinach (200)</a>
+                              <a class="dropdown-item" href="#">Extra Onion (200)</a>
+                              <a class="dropdown-item" href="#">Extra Mushrooms (200)</a>
+                              <a class="dropdown-item" href="#">Extra Tomatoes (200)</a>
+                              <a class="dropdown-item" href="#">Extra Jalapenos (200)</a>
+                              <a class="dropdown-item" href="#">Extra Olives (200)</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="col-sm-4">
+                      <div class="card" id="menuItem">
+                        <div class="card-header">
+                          TROPICAL VEGGIE
+                        </div>
+                        <img class="card-img-top" src="images/menu-item4.png" alt="an image of menu item3" width="98%">
+                        <div class="card-footer">
+      
+                          <div class="dropdown">
+                            <button class="btn btn-success btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Size
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <button class="dropdown-item" type="button">Large</button>
+                              <button class="dropdown-item" type="button">Medium</button>
+                              <button class="dropdown-item" type="button">Small</button>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-warning btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Crust
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Puff Pastry (200)</a>
+                              <a class="dropdown-item" href="#">Tripple Cheese Crust (400)</a>
+                              <a class="dropdown-item" href="#">Double Cheesy Crust (300)</a>
+                              <a class="dropdown-item" href="#">Cheesy Crust (150)</a>
+                              <a class="dropdown-item" href="#">Classic Pizza Crust</a>
+                              <a class="dropdown-item" href="#">Thin & Crust (100)</a>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Toppings
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Extra Beef (200)</a>
+                              <a class="dropdown-item" href="#">Extra Ham (200)</a>
+                              <a class="dropdown-item" href="#">Extra Cheese Mozarella (200)</a>
+                              <a class="dropdown-item" href="#">Extra Bacon (200)</a>
+                              <a class="dropdown-item" href="#">Extra Sausages (200)</a>
+                              <a class="dropdown-item" href="#">Extra Chicken (200)</a>
+                              <a class="dropdown-item" href="#">Extra Spinach (200)</a>
+                              <a class="dropdown-item" href="#">Extra Onion (200)</a>
+                              <a class="dropdown-item" href="#">Extra Mushrooms (200)</a>
+                              <a class="dropdown-item" href="#">Extra Tomatoes (200)</a>
+                              <a class="dropdown-item" href="#">Extra Jalapenos (200)</a>
+                              <a class="dropdown-item" href="#">Extra Olives (200)</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div>
-              <form action="">
-                <label for="select">Select flavor of your choice</label>
-                <!--flavour section-->
-                <select name="" id="">
-                  <option value="">Buffalo Chicken Pizza Sticks</option>
-                  <option value="">Chicken Alfredo Pizza</option>
-                  <option value="">Taco Quesadila Pizza</option>
-                  <option value="">Cookie Dough Dessert Pizza</option>
-                  <option value="">Red hot Veggie</option>
-                  <option value="">Classic Margherita</option>
-                  <option value="">Original Veggie</option>
-                  <option value="Tikka chicken">Tikka chicken</option>
-                  <option value="Chicken & Mushroom">Chicken & Mushroom</option>
-                  <option value="Peri peri chicken">Peri peri chicken</option>
-                </select>
-                <!--crust section-->
-                <label for="">Favorite Crust!</label>
-                <select class="form-control drop" id="crust-selector" required>
-                  <option value="stuffed">stuffed-- sh. 850</option>
-                  <option value="Cripsy">Cripsy-- sh. 1200</option>
-                  <option value="Gluten-free">Gluten-free-- sh. 600</option>
-                </select>
-                <!--size section-->
-                <label for="">Select Size</label>
-                <select class="form-control drop" id="size-selector" required>
-                  <option value="small">small-- sh. 550</option>
-                  <option value="medium">medium--sh. 1100</option>
-                  <option value="large">large--sh. 2200</option>
-                  <option value="jumble">jumble--sh. 4400</option>
-                </select>
-                <!--topping-->
-                <label for="">Select topping</label>
-                <select class="form-control drop " id="topping-selector" required>
-                  <option value="">Extra Beef</option>
-                  <option value="">Extra Ham</option>
-                  <option value="">Extra Cheese Mozarella</option>
-                  <option value="">Extra Bacon</option>
-                  <option value="">Extra Sausages</option>
-                  <option value="">Extra Chicken</option>
-                  <option value="">Extra Spinach</option>
-                  <option value="">Extra Onion</option>
-                  <option value="">Extra Mushrooms</option>
-                  <option value="">Extra Tomatoes</option>
-                  <option value="">Extra Jalapenos</option>
-                  <option value="">Extra Olives</option>
-                </select>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <h2>Order Details</h2>
-      <div class="card" id="orderDetails">
-        <div class="card-body">
-          <div class="summary">
-            <div id="price-breakdown">
-              <div class="summary-items">
-                <p class="space"><span id="size-price"></span></p>
-              </div>
-              <div class="summary-items">
-                <p class="space"><span id="toppings-price"></span></p>
-              </div>
-              <div class="summary-items">
-                <p class="space"><span id="crust-price"></span></p>
-              </div>
-              <div class="summary-items">
-                <p class="space"><span id="delivery-price"></span></p>
-              </div>
-            </div>
-            <div class="summary-items total" id="total">
-              <h5 class="sum-price" id="total-price"></h5>
-            </div>
-          </div>
-        </div>
-        <div class="card-footer">
-          <button onclick="submit()" id="checkOut" class="btn reserve-btn">CHECKOUT</button>
-        </div>
-      </div>
-    </div>
-    <div class="row ">
-      <div class="col-md-5">
-        <div class="container contact-us">
-          <h1 id="Contacts">CONTACT US</h1>
-          <form id="feedbackForm">
-            <div class="form-row">
-              <div class="form-group col-md-6 ">
-                <input type="text" class="form-control" id="userName" placeholder="Name...">
-              </div>
-              <div class="form-group col-md-6 ">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email...">
-              </div>
-              <div class="form-group col-md-12 ">
-                <textarea id="userMessage" name="message" class="form-control" placeholder="Your message here..." rows="12"
-                  required="required" data-error="Please, leave us a message."></textarea>
-              </div>
-              <div class="col-md-12 " id="submit-button">
-                <button onclick="submit()" id="submit" class="btn btn-primary">Submit</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      </div>
-    </div>  
+
+  
+      
     <!--about section-->
     <h2 id="about-us">ABOUT US</h2>
     <div class="container-fluid" id="about-us">
-      <div>
-        <div>
-          <div></div>
-        </div>
-        <div>
-          <div>
-            <h2>WE ARE</h2>
+      <div class="row">
+    
+        <div class="col-md-7">
+          <div class="container founder section">
+            <h2>WE ARE:</h2>
             <p>
               ROCK OF LILYS PIZZA PLACE that has been in pizza business for
               over 90 years now and offers a very unique atmosphere addtion to
