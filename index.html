@@ -38,84 +38,9 @@
             </li>
           </ul>
         </div>
-      </nav>
-      <div id="menu"></div>
-      <br>
-      <div class="menu col-md-12">
-        <div class="menu-overlay">
-          <h1 class="text-center " id="menu">Menu</h1>
-          <div class="pizza-menu row text-center">
-            <figure class="col-sm-4">
-              <img src="images/images (1).jpeg" alt="small-pizza" class="wiggle">
-              <figcaption class="text-white">Regular<br>Ksh. 550</figcaption>
-            </figure>
-            <figure class="col-sm-4">
-              <img src="images/images (2).jpeg" alt="medium-pizza" class="wiggle">
-              <figcaption class="text-white">Medium<br>Ksh. 1100</figcaption>
-            </figure>
-            <figure class="col-sm-4">
-              <img src="images/images (3).jpeg" alt="large-pizza" class="wiggle">
-              <figcaption class="text-white">Large<br>Ksh. 2200</figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <!--Order details-->
-        <div class="col-md-3">
-          <h2>Order Details</h2>
-          <div class="card" id="orderDetails">
-            <div class="card-body">
-              <div class="summary">
-                <div id="price-breakdown">
-                  <div class="summary-items">
-                    <p class="space"><span id="size-price"></span></p>
-                  </div>
-                  <div class="summary-items">
-                    <p class="space"><span id="toppings-price"></span></p>
-                  </div>
-                  <div class="summary-items">
-                    <p class="space"><span id="crust-price"></span></p>
-                  </div>
-                  <div class="summary-items">
-                    <p class="space"><span id="delivery-price"></span></p>
-                  </div>
-                </div>
-                <div class="summary-items total" id="total">
-                  <h5 class="sum-price" id="total-price"></h5>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer">
-              <button onclick="submit()" id="checkOut" class="btn reserve-btn">CHECKOUT</button>
-            </div>
-          </div>
-        </div>
-
       
-      <!--about section-->
-      <h2 id="about-us">ABOUT US</h2>
-      <div class="container-fluid" id="about-us">
-        <div>
-          <div>
-            <div></div>
-          </div>
-          <div>
-            <div>
-              <h2>WE ARE</h2>
-              <p>
-                ROCK OF LILYS PIZZA PLACE that has been in pizza business for
-                over 90 years now and offers a very unique atmosphere addtion to
-                home delivery services for all pizza orders and we know that
-                pizza is a family meal which is popular around the world and
-                that has resulted in a large number of chains of pizza
-                restuarants but none of then is the best than ROCK OF LILYS
-                PIZZA PLACE
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-  <!--munu section-->
+  
+  <!--menu section-->
       <div>
         <div>
           <div>
@@ -160,14 +85,14 @@
                 </select>
                 <!--crust section-->
                 <label for="">Favorite Crust!</label>
-                <select name="" id="">
+                <select class="form-control drop" id="crust-selector" required>
                   <option value="stuffed">stuffed-- sh. 850</option>
                   <option value="Cripsy">Cripsy-- sh. 1200</option>
                   <option value="Gluten-free">Gluten-free-- sh. 600</option>
                 </select>
                 <!--size section-->
                 <label for="">Select Size</label>
-                <select name="" id="">
+                <select class="form-control drop" id="size-selector" required>
                   <option value="small">small-- sh. 550</option>
                   <option value="medium">medium--sh. 1100</option>
                   <option value="large">large--sh. 2200</option>
@@ -175,7 +100,7 @@
                 </select>
                 <!--topping-->
                 <label for="">Select topping</label>
-                <select>
+                <select class="form-control drop " id="topping-selector" required>
                   <option value="">Extra Beef</option>
                   <option value="">Extra Ham</option>
                   <option value="">Extra Cheese Mozarella</option>
@@ -192,6 +117,35 @@
               </form>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <h2>Order Details</h2>
+      <div class="card" id="orderDetails">
+        <div class="card-body">
+          <div class="summary">
+            <div id="price-breakdown">
+              <div class="summary-items">
+                <p class="space"><span id="size-price"></span></p>
+              </div>
+              <div class="summary-items">
+                <p class="space"><span id="toppings-price"></span></p>
+              </div>
+              <div class="summary-items">
+                <p class="space"><span id="crust-price"></span></p>
+              </div>
+              <div class="summary-items">
+                <p class="space"><span id="delivery-price"></span></p>
+              </div>
+            </div>
+            <div class="summary-items total" id="total">
+              <h5 class="sum-price" id="total-price"></h5>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button onclick="submit()" id="checkOut" class="btn reserve-btn">CHECKOUT</button>
         </div>
       </div>
     </div>
@@ -220,6 +174,29 @@
       </div>
       </div>
     </div>  
+    <!--about section-->
+    <h2 id="about-us">ABOUT US</h2>
+    <div class="container-fluid" id="about-us">
+      <div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div>
+            <h2>WE ARE</h2>
+            <p>
+              ROCK OF LILYS PIZZA PLACE that has been in pizza business for
+              over 90 years now and offers a very unique atmosphere addtion to
+              home delivery services for all pizza orders and we know that
+              pizza is a family meal which is popular around the world and
+              that has resulted in a large number of chains of pizza
+              restuarants but none of then is the best than ROCK OF LILYS
+              PIZZA PLACE
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container-fluid footer">
       <div>
         <div>
@@ -232,7 +209,7 @@
           </ul>
         </div>
       </div>
-      <div class="">
+      <div class="container Branches">
         <h6>Branches</h6>
         <h6>Westlands:</h6>
         <p>Located at oil Libya Services Station westlands</p>
