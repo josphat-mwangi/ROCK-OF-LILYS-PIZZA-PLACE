@@ -10,7 +10,7 @@ class  pizza {
 }
 typePrice(){
     if (this.type == "CHICKEN SUPREME") {
-        this.price = 800;
+        this.price = 700;
         return this.price;
     } else {
         return this.price;
@@ -18,59 +18,44 @@ typePrice(){
 }
 
 priceBySize(){
-    if (this.size == "jumble") {
-        return 4400;
-    } else if (this.size == "large") {
-        return 2200;
-    } else if (this.size == "medium") {
-        return 1100;
-    
+    if (this.size == "Large") {
+        return 1500;
+    } else if (this.size == "Medium") {
+        return 1000;
     } else {
         return 500;
     }
 }
 
 crustPrice(){
-    if (this.crust == "stuffed") {
-        return 850;
-    } else if (this.crust == "cripsy") {
-        return 1200;
-    
+    if (this.crust == "Tripple Cheese Crust") {
+        return 400;
+    } else if (this.crust == "Double Cheese Crust") {
+        return 300;
+    } else if (this.crust == "Puff Pastry") {
+        return 200;
+    } else if (this.crust == "Cheesy Crust") {
+        return 150;
     } else {
-        return 600;
+        return 0;
     }
 }
 
 toppingsPrice(){
-    if (this.toppings == "Extra Beef") {
+    if (this.toppings == "Extra Chicken") {
         return 200;
-    } else if (this.toppings == "Extra Ham") {
-        return 300;
-    } else if (this.toppings == "Extra Cheese Mozarella") {
-        return 400;
-    } else if (this.toppings == "Extra Becon") {
-        return 500;
-    } else if (this.toppings == "Extra Sausages") {
-        return 600;
-    } else if (this.toppings == "Extra Chicken") {
-        return 700;
-    } else if (this.toppings == "Extra Spinach") {
-        return 800;
-    } else if (this.toppings == "Extra Onions") {
-        return 900;
-    } else if (this.toppings == "Extra Mushroom") {
-        return 1000;
     } else {
-        return 1100;
+        return 0;
     }
-} 
+}
+
 deliveryPrice(){
     if (this.delivery == true) {
         return 200;
     } else {
         return 0;
     }
-} 
+}
 
 totalPriceNoDelivery(){
     let priceAtPointA = this.typePrice();
@@ -93,8 +78,7 @@ totalPlusDelivery(){
     return withoutDelivery + deliveryFee;
 }
 
-
-
+}
 
 $(document).ready(() => {
     $("#pizza-one-form").submit((event) => {
