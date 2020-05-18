@@ -93,7 +93,7 @@ totalPlusDelivery(){
     return withoutDelivery + deliveryFee;
 }
 
-}
+
 
 
 $(document).ready(() => {
