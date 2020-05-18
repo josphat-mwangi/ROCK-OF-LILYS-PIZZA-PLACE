@@ -1,0 +1,7 @@
+.header {
+  background-image: url(../images/bg1.jpeg);
+  background-size: cover;
+  background-position: relative;
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
