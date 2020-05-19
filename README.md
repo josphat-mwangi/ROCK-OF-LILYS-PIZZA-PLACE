@@ -1,5 +1,11 @@
 # ROCK OF LILYS PIZZA PLACE
 
+A web application where customers make order of different size of pizza with one or more topping
+
+# Author
+
+Josphat Mwangi
+
 # Description
 
 This site is created to practise HTML, CSS, JS and jquery.To show that i have the concepts right.
