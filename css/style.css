@@ -60,60 +60,66 @@
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-#size-selector {
-  width: 120px;
-  float: right;
-}
-#crust-selector {
-  border-radius: 0px;
-  margin: 2%;
-}
-#topping-selector {
-  border-radius: 0px;
-  margin: 2%;
-}
-#orderDetails {
-  border-radius: 0px;
-  border: solid #cccbc6 1px;
-  background: rgba(0, 0, 0, 0.8);
-  font-family: "Sarabun", sans-serif;
-  color: #fff;
-  font-weight: 700;
-  text-align: left;
-  font-size: 14px;
-  height: 300px;
-}
-}
+
 .carousel-caption {
-  color:#fff;
-  text-align:center;
-  top:45%;
+  color: #fff;
+  text-align: center;
+  top: 45%;
   left: 10%;
   width: 550px;
-  bottom:auto;
-  -webkit-transform:translate(0, -50%);
-  -ms-transform:translate(0, -50%);
-  transform:translate(0, -50%);
+  bottom: auto;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
 }
 .carousel-caption h5 {
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-weight: 700;
 }
 .carousel-caption p {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
   font-size: 40px;
 }
-.menu {
-  padding: 5%;
-  background: url('../images/menubg.jpeg');
+.order {
+  background-attachment: fixed;
+  background-image: url("../images/slider2.jpg");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
-  color: #ffffff;
-  box-shadow: 0px 5px 8px #2E1C13;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
-.menu h2 {
-  font-family: 'Shrikhand', cursive;
-  color: #ffda00;
-  font-size: 40px;
+.order-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
+.choise {
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.deliver {
+  display: none;
+}
+.delivery {
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.choise h2 {
+  color: orange;
+  text-align: left;
+}
+#your-orders {
+  color: white;
+  font-size: 30px;
+}
+.order h2 {
+  text-align: center;
+  font-size: 20px;
 }
