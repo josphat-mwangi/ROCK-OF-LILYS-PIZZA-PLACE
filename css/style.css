@@ -127,3 +127,12 @@
   background-image: url("../images/wood.jpeg");
   color: white;
 }
+.bg {
+  background-color: brown;
+}
+.pace {
+  text-align: left;
+}
+.btn {
+  color: orange;
+}
