@@ -80,48 +80,7 @@
   font-family: "Fredericka the Great", cursive;
   font-size: 40px;
 }
-.order {
-  background-attachment: fixed;
-  background-image: url("../images/menubg.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-.order-overlay {
-  background-color: rgba(0, 0, 0, 0.8);
-  margin-left: 2%;
-  margin-right: 2%;
-  padding-bottom: 20px;
-  padding-left: 6%;
-}
-.choise {
-  display: none;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-.deliver {
-  display: none;
-}
-.delivery {
-  display: none;
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
-.choise h2 {
-  color: orange;
-  text-align: left;
-}
-#your-orders {
-  color: white;
-  font-size: 30px;
-}
-.order h2 {
-  text-align: center;
-  font-size: 20px;
 }
 .aboutUs {
   background-image: url("../images/wood.jpeg");
@@ -136,3 +95,142 @@
 .btn {
   color: orange;
 }
+.pace2 {
+  color:white;
+}
+
+
+
+
+
+#piz-pap {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: darkorange;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.h-buttons {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.h-buttons button {
+    border-radius: 40px;
+    color: black;
+}
+
+
+
+figcaption {
+    font-family: 'Oswald', serif;
+}
+
+
+#order-pizza {
+    color: #000;
+}
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
+
+.order-summary h1, .summary, .contact {
+    color: #000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-top: 30px;
+}
+input[type="email"] {
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 20px;
+    outline: none !important;
+    font-size: 14px;
+}
+
+.click-me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.get-pizza {
+    margin-top: 40px;
+}
+
+.contact {
+    padding-top: 20px;
+}
+
+.cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.data {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.go {
+    border-radius: 20px;
+}
+
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.deliver, .delivernot {
+    margin: 10px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#list {
+    color: #000;
+}
+
+.pizz {
+    color: lawngreen;
+}
+
+
