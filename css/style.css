@@ -258,3 +258,11 @@ input[type="text"] {
     outline: none !important;
     font-size: 14px;
 }
+.pace3 {
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 20px;
+    outline: none !important;
+    font-size: 14px;
+}

@@ -34,9 +34,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contacts">Contacts</a>
               </li>
-              <li id="reserve-button">
-                <button onclick="submit()" id="reserve" class="btn reserve-btn">Reserve a Table</button>
-              </li>
             </ul>
           </div>
         </nav>
@@ -74,7 +71,7 @@
           </div>
           <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <spa`n class="sr-only">Previous</span>
           </a>
           <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -88,8 +85,8 @@
           <div class="col-sm-2"></div>
           <div class="col-sm-8 order-overlay text-center">
             <form class="col-sm-6 offset-sm-3 text-center">
-              <label class="pace2">Pick your pizza Flavour:</label>
-              <select class="custom-select custom-select-md mb-3 flavour" required>
+              <label pace2>Pick your pizza Flavour:</label>
+              <select class="custom-select custom-select-md mb-3 flavour" required class="pace3">
                 <option value="vegtikka">Veg Tikka</option>
                 <option value="chickentikka">Chicken Tikka</option>
                 <option value="periperi">Peri-Peri Chicken</option>
@@ -100,20 +97,20 @@
                 <option value="regina">Regina Pizza</option>
               </select>
               <label class="pace2">Chose your preferred Size:</label>
-              <select class="custom-select custom-select-md mb-3" id="size" required>
+              <select class="custom-select custom-select-md mb-3" id="size" required class="pace3">
                 <option value="regular">Regular</option>
                 <option value="medium">Medium</option>
                 <option value="large">Large</option>
               </select>
               <label for="crust" class="pace2">Choose your favorite Crust:</label>
-              <select class="custom-select custom-select-md mb-3" id="crust" required>
+              <select class="custom-select custom-select-md mb-3" id="crust" required class="pace3">
                 <option value="thin">Thin Crust @ Ksh. 100</option>
                 <option value="thick">Thick Crust @ Ksh. 150</option>
                 <option value="flatbread">FlatBread Crust @ sh. 180</option>
                 <option value="custom">Custom Crust @ sh. 280</option>
               </select>
               <label class="pace2">Select Your favourite Toppings</label>
-              <select class="custom-select custom-select-md mb-3" id="toppings" required>
+              <select class="custom-select custom-select-md mb-3" id="toppings" required class="pace3">
                 <option value="tomato">Tomato @ sh. 80</option>
                 <option value="onions">Onions @ sh. 80</option>
                 <option value="mushroom">Mushroom @ sh. 80</option>
@@ -145,7 +142,7 @@
       </div>
       
       <div class="order-summary" id="sum-order">
-        <h1 class="text-center" id="summary">Order Summary</h1>
+        <h1 class="text-center" id="summary" id="delivery">Order Summary</h1>
         <h2 class="text-center summary">Hello there, your order is as follows:</h2>
         <ol id="list" class="text-center sum">
         </ol>
