@@ -4,173 +4,178 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ROCK OF LILYS PIZZA PLACE</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery-3.5.1.js"></script>
-      <script src="js/script.js"></script>
+    
      
   </head>
   <body class="pace">
-    <div class="container-fluid">
-      <div class="header">
-        <nav class="navbar navbar-expand-md fixed-top ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <a class="navbar-brand logo" href="#"><img src="images/bg2.jpg" alt="logo of pizza house" width="70%"></a>
-          <span class="navbar-brand navbar-text"> <a href="#"></a> ROCK OF LILYS PIZZA PLACE</span>
-          <div class="collapse navbar-collapse" id="collapse_target">
-            <ul class="navbar-nav ml-lg-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#order">Order</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Delivery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#aboutUs">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacts">Contacts</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      
-     
-      </div><div class="bd-example">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/images (1).jpeg" class="d-block w-100" alt="an image of pizza">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>ROCK OF LILYS PIZZA PLACE</h5>
-                <p>In Pizza We Crust!</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="images/images (2).jpeg" class="d-block w-100" alt="an image of pizza">
-              <div class="carousel-caption d-none d-md-block">
-                
-                <p>“THE GLUTEN FREE CRUST IS THE BEST THING I’VE EVER TASTED!”</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="images/images.jpg" class="d-block w-100" alt="images/pizza2.jpg">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>WELCOME ALL AND ENJOY</h5>
-                
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <spa`n class="sr-only">Previous</span>
+    <!-- Navbar
+    <div class="header">
+      <nav class="navbar navbar-expand-md fixed-top ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand logo" href="#"><img src="images/bg2.jpg" alt="logo of pizza house" width="70%"></a>
+        <span class="navbar-brand navbar-text"> <a href="#"></a> ROCK OF LILYS PIZZA PLACE</span>
+        <div class="collapse navbar-collapse" id="collapse_target">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#order">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Delivery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div> -->
+    <!--Navbar-->
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+          <img class="d-block w-100" height="700vh"  src="images/pexels-photo-2918537.jpeg"
+            alt="First slide">
+        </div>
+        <!--/First slide-->
+        <!--Second slide-->
+        <div class="carousel-item">
+          <img class="d-block w-100" height="700vh" src="images/pexels-photo-845811.jpeg"
+            alt="Second slide">
+        </div>
+        <!--/Second slide-->
+        <!--Third slide-->
+        <div class="carousel-item">
+          <img class="d-block w-100" height="700vh" src="images/pexels-photo-5639258.jpeg"
+            alt="Third slide">
+        </div>
+        <!--/Third slide-->
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+    <!--Order-->
+    <br><br><br><br>
+    <div class="orders" id="order">
+      <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+      <div class="form-group row">
+        <!-- <div class="col-sm-2"></div> -->
+        <div class="container-fluid order-overlay text-center">
+          <form class="col-sm-6 offset-sm-3 text-center">
+            <label class="pace2">Pick your pizza Flavour:</label>
+            <select class="custom-select custom-select-md mb-3 flavour form-control" style="padding-bottom: 0;" required class="pace3">
+              <option value="vegtikka">Veg Tikka</option>
+              <option value="chickentikka">Chicken Tikka</option>
+              <option value="periperi">Peri-Peri Chicken</option>
+              <option value="bbq">BBQ Steak</option>
+              <option value="boerewors">Boerewors</option>
+              <option value="hawaiian">Hawaiian</option>
+              <option value="mushroom">Chicken and Mushroom</option>
+              <option value="regina">Regina Pizza</option>
+            </select>
+            <label class="pace2">Chose your preferred Size:</label>
+            <select class="custom-select custom-select-md mb-3 form-control" style="padding-bottom: 0;" id="size" required class="pace3">
+              <option value="regular">Regular</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+            <label for="crust" class="pace2">Choose your favorite Crust:</label>
+            <select class="custom-select custom-select-md mb-3 form-control" style="padding-bottom: 0;" id="crust" required class="pace3">
+              <option value="thin">Thin Crust @ Ksh. 100</option>
+              <option value="thick">Thick Crust @ Ksh. 150</option>
+              <option value="flatbread">FlatBread Crust @ sh. 180</option>
+              <option value="custom">Custom Crust @ sh. 280</option>
+            </select>
+            <label class="pace2">Select Your favourite Toppings</label>
+            <select class="custom-select custom-select-md mb-3 form-control" style="padding-bottom: 0;"  id="toppings" required class="pace3">
+              <option value="tomato">Tomato @ sh. 80</option>
+              <option value="onions">Onions @ sh. 80</option>
+              <option value="mushroom">Mushroom @ sh. 80</option>
+              <option value="greenpepper">Green Pepper @ sh. 80</option>
+              <option value=""></option>
+              <option value="olives">Olives @ sh. 120</option>
+              <option value="pineapple">Pineapple @ sh. 120</option>
+              <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+              <option value="macon">Macon @ sh. 120</option>
+              <option value="mince">Mince @ sh. 120</option>
+              <option value=""></option>
+              <option value="beef">Beef Peperoni @ sh. 170</option>
+              <option value="chicken">Periperi Chicken @ sh. 170</option>
+            </select>
+            <label for="number" class="pace2">Number of Pizza's</label>
+            <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+          </form>
+          <a href="#summary">
+            <button type="submit" class="btn btn-success checkout" id="checkout">
+              Checkout
+            </button>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
       </div>
-      <div class="orders" id="order">
-        <h1 class="text-center" id="order-pizza">Order Pizza</h1>
-        <div class="form-group row">
-          <div class="col-sm-2"></div>
-          <div class="col-sm-8 order-overlay text-center">
-            <form class="col-sm-6 offset-sm-3 text-center">
-              <label pace2>Pick your pizza Flavour:</label>
-              <select class="custom-select custom-select-md mb-3 flavour" required class="pace3">
-                <option value="vegtikka">Veg Tikka</option>
-                <option value="chickentikka">Chicken Tikka</option>
-                <option value="periperi">Peri-Peri Chicken</option>
-                <option value="bbq">BBQ Steak</option>
-                <option value="boerewors">Boerewors</option>
-                <option value="hawaiian">Hawaiian</option>
-                <option value="mushroom">Chicken and Mushroom</option>
-                <option value="regina">Regina Pizza</option>
-              </select>
-              <label class="pace2">Chose your preferred Size:</label>
-              <select class="custom-select custom-select-md mb-3" id="size" required class="pace3">
-                <option value="regular">Regular</option>
-                <option value="medium">Medium</option>
-                <option value="large">Large</option>
-              </select>
-              <label for="crust" class="pace2">Choose your favorite Crust:</label>
-              <select class="custom-select custom-select-md mb-3" id="crust" required class="pace3">
-                <option value="thin">Thin Crust @ Ksh. 100</option>
-                <option value="thick">Thick Crust @ Ksh. 150</option>
-                <option value="flatbread">FlatBread Crust @ sh. 180</option>
-                <option value="custom">Custom Crust @ sh. 280</option>
-              </select>
-              <label class="pace2">Select Your favourite Toppings</label>
-              <select class="custom-select custom-select-md mb-3" id="toppings" required class="pace3">
-                <option value="tomato">Tomato @ sh. 80</option>
-                <option value="onions">Onions @ sh. 80</option>
-                <option value="mushroom">Mushroom @ sh. 80</option>
-                <option value="greenpepper">Green Pepper @ sh. 80</option>
-                <option value=""></option>
-                <option value="olives">Olives @ sh. 120</option>
-                <option value="pineapple">Pineapple @ sh. 120</option>
-                <option value="sweetcorn">Sweet Corn @ sh. 120</option>
-                <option value="macon">Macon @ sh. 120</option>
-                <option value="mince">Mince @ sh. 120</option>
-                <option value=""></option>
-                <option value="beef">Beef Peperoni @ sh. 170</option>
-                <option value="chicken">Periperi Chicken @ sh. 170</option>
-              </select>
-              <label for="number" class="pace2">Number of Pizza's</label>
-              <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
-      
-      
-            </form>
-            <a href="#summary">
-              <button type="submit" class="btn btn-success checkout" id="checkout">
-                Checkout
-              </button>
-            </a>
-      
-          </div>
-          <div class="col-sm-2"></div>
+    </div>
+    <!--Order-->
+    <!--Order-summary-->
+    <div class="order-summary" id="sum-order">
+      <h1 class="text-center" id="summary" id="delivery">Order Summary</h1>
+      <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+      <ol id="list" class="text-center sum">
+      </ol>
+      <!--Order-summary-->
+      <!--delivery-->
+      <div class="cdata-overlay">
+        <div class="customerdata row">
+          <div class="col-sm-3"></div>
+          <form action="" class="form-group col-sm-6 data">
+            <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+            <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+            <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+            <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+          </form>
+    
+          <div class="col-sm-3"></div>
         </div>
       </div>
-      
-      <div class="order-summary" id="sum-order">
-        <h1 class="text-center" id="summary" id="delivery">Order Summary</h1>
-        <h2 class="text-center summary">Hello there, your order is as follows:</h2>
-        <ol id="list" class="text-center sum">
-        </ol>
-      
-      
-        <div class="cdata-overlay">
-          <div class="customerdata row">
-            <div class="col-sm-3"></div>
-            <form action="" class="form-group col-sm-6 data">
-              <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-              <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-              <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-              <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
-            </form>
-      
-            <div class="col-sm-3"></div>
-          </div>
-        </div>
-        <div class="d-block mx-auto text-center">
-          <button class='deliver'>Make Delivery</button>
-          <button class='delivernot'>Pick Up</button>
-        </div>
+      <div class="d-block mx-auto text-center">
+        <button class='deliver'>Make Delivery</button>
+        <button class='delivernot'>Pick Up</button>
       </div>
-     
-      
-
-       
-      
+      <!--delivery-->
+    </div>
+  
+    <br><br><br><br><br>
     <!--about section-->
     <div class="container-large aboutUs text-center">
       <div class="col-md-12" id="aboutUs">
@@ -178,42 +183,45 @@
           <div class="col-md-7">
             <div class="container founder-section">
               <h1>About Us.</h1>
-              <img id="my-image" src="images/bg3.jpeg" alt="image of founder" width="20%">
               <p>
                 ROCK OF LILYS PIZZA PLACE that has been in pizza business for over 90 years now and offers a very unique atmosphere, addition to home delivery services for all pizza orders and we know that pizza is a family meal which is popular around the world and that has resulted in a large number of chains of pizza restuarants but none of them is the best than ROCK OF LILY PIZZA PLACE.Welcome all.
-                
               </p>
             </div>
           </div>
+    <!--About section-->
+          <!--contact section-->
           <div class="col-md-5">
             <div class="container contact-us">
               <h1 class="wow jackInTheBox" id="contacts">CONTACT US</h1>
-              <form id="feedbackForm">
-                <div class="form-row">
-                  <div class="form-group col-md-6 wow jackInTheBox">
-                    <input type="text" class="form-control" id="userName" placeholder="Name...">
-                  </div>
-                  <div class="form-group col-md-6 wow jackInTheBox">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email...">
-                  </div>
-                  <div class="form-group col-md-12 wow jackInTheBox">
-                    <textarea id="userMessage" name="message" class="form-control" placeholder="Your message here..."
-                      rows="8" required="required" data-error="Please, leave us a message."></textarea>
-                  </div>
-                  <div class="col-md-12 wow jackInTheBox" id="submit-button">
-                    <button onclick="submit()" id="submit" class="btn btn-primary">Submit</button>
-                  </div>
-                </div>
-              </form>
+                <!-- Form -->
+                <form class="text-center" style="color: #757575;" action="#!">
+                    <!-- Name -->
+                    <div class="md-form mt-3">
+                        <input type="text" id="materialContactFormName" class="form-control">
+                        <label for="materialContactFormName">Name</label>
+                    </div>
+                    <!-- E-mail -->
+                    <div class="md-form">
+                        <input type="email" id="materialContactFormEmail" class="form-control">
+                        <label for="materialContactFormEmail">E-mail</label>
+                    </div>
+                    <!--Message-->
+                    <div class="md-form">
+                        <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
+                        <label for="materialContactFormMessage">Message</label>
+                    </div>
+                    <!-- Send button -->
+                    <button class="btn btn-outline-info btn-rounded z-depth-0 my-4 waves-effect"  type="submit">Send</button>
+                   
+                </form>
+                <!-- Form -->
             </div>
           </div>
+          <!--contact section-->
         </div>
       </div>
-    </div>
-
-    
-    <div class="container-fluid footer text-center bg">
-      <div>
+      <!--social media section-->
+      <div class="container-fluid footer text-center bg">
         <div>
           <img src="images/social icons/twitter.png" alt="twitter">
           <img src="images/social icons/dribble.png" alt="dribble">
@@ -221,25 +229,35 @@
           <img src="images/social icons/g_plus.png" alt="g_plus">
           <img src="images/social icons/behance.png" alt="behance">
           <img src="images/social icons/pinterest.png" alt="pinterest">
-          
         </div>
-      </div>
-      <div class="container Branches">
-        <h6>Branches</h6>
-        <h6>Westlands:</h6>
-        <p>Located at oil Libya Services Station westlands</p>
-        <h6>Embakasi:</h6>
-        <p>Located at Kobil, airport North Road, Eastlands, Nairobi.</p>
-        <h6>Capital center:</h6>
-        <p>Located at Capital center, Mombasa Road, Nairobi.</p>
-      </div>
-      <div class="footer-text">
-        <p>JOSPHAT MWANGI</p>
-        <p>2020</p>
+        <!--social media section-->
+        <!--Direction-->
+        <div class="container Branches">
+          <h6>Branches</h6>
+          <h6>Westlands:</h6>
+          <p>Located at oil Libya Services Station westlands</p>
+          <h6>Embakasi:</h6>
+          <p>Located at Kobil, airport North Road, Eastlands, Nairobi.</p>
+          <h6>Capital center:</h6>
+          <p>Located at Capital center, Mombasa Road, Nairobi.</p>
+        </div>
+        <div class="footer-text">
+          <p>JOSPHAT MWANGI</p>
+          <p>2020</p>
+        </div>
+        <!--Direction-->
       </div>
     </div>
-    
-   
-    
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
